@@ -15,7 +15,7 @@ void setup() {
   Serial.begin(9600);
   
   radio.begin();
-  radio.setPALevel(RF24_PA_MIN);
+  radio.setPALevel(RF24_PA_MAX);
 
   radio.openWritingPipe(ADDRESS[0]);
   radio.openReadingPipe(1, ADDRESS[1]);
