@@ -6,7 +6,7 @@
 RF24 radio(7, 8);
 const uint8_t ADDRESS[][6] = {"00001", "00002"};
 const unsigned int TIMEOUT = 200; // ms
-const unsigned int TERM = 100; // ms
+const unsigned int TERM = 200; // ms
 const unsigned int DEFAULT_COUNT = 100;
 
 typedef struct _Data {
